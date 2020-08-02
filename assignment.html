@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta  name="viewport"contents="width:device-width,initial-scale=1.0">
+<title>LAYOUTS</title>
+<style>
+body{
+margin:0px;
+*box-sizing-border-box;
+}
+h1{
+font-family:times new roman;
+background-color:purple;
+width:100%;
+text-align:center;
+margin:40px;
+border-left:3px solid black;
+border-right:3px solid black;
+border-top:3px solid black;
+border-bottom:3px solid black;
+}
+h2{
+font-family:times new roman;
+background-color:purple;
+width:99%;
+margin:0px;
+text-align:right;
+padding:1px;
+border-left:3px solid black;
+border-right:3px solid black;
+border-top:3px solid black;
+border-bottom:3px solid black;
+}
+p{
+margin:40px;
+color:blue;
+}
+.header{
+height:100px;
+text-align:center;
+color:red;
+width:75%;
+margin:40px;
+}
+#container div{
+padding:1px;
+}
+#left-col{
+background-color:green;
+width:30%;
+margin:5px;
+border-left:3px solid black;
+border-right:3px solid black;
+border-top:3px solid black;
+border-bottom:3px solid black;
+float:left;
+}
+#right-col{
+background-color:green;
+width:30%;
+margin:5px;
+border-left:3px solid black;
+border-right:3px solid black;
+border-top:3px solid black;
+border-bottom:3px solid black;
+float:left;
+}
+#center-col{
+background-color:pink;
+width:30%;
+margin:5px;
+border-left:3px solid black;
+border-right:3px solid black;
+border-top:3px solid black;
+border-bottom:3px solid black;
+float:left;
+}
+@media screen and (min-width-992px){
+#left-col{
+width:30%;
+}
+#center-col;
+{
+width:30%;
+}
+#right-col
+{
+width:30%;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+#left-col
+{
+width:30%;
+}
+#center-col
+{
+width:30%;
+}
+#right-col
+{
+width:100%;
+}
+}
+@media only screen and (max-width:767px){
+#left-col,#right-col,#center-col{
+width:100%;
+float:none;
+} 
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1>layouts</h1>
+</div>
+<div id="container">
+<div id="left-col">
+<h2>left</h2>
+<p>Web development is the building and maintenance of websites.
+ it's the work that happens behind the scenes to make a website look great.
+ work fast and perform well with a seamless user experience.</p>
+</div>
+<div id="center-col">
+<h2>center</h2>
+<p>>Web development is the building and maintenance of websites.
+ it's the work that happens behind the scenes to make a website look great.
+ work fast and perform well with a seamless user experience.</p>
+</div>
+<div id="right-col">
+<h2>right</h2>
+<p>>Web development is the building and maintenance of websites.
+ it's the work that happens behind the scenes to make a website look great.
+ work fast and perform well with a seamless user experience.</p>
+</div>
+</div>
+</body>
+</html>
+
+
